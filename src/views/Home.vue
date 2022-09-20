@@ -1,8 +1,20 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-  </div>
+    <v-container fluid class="big-iframe">
+      <v-row class="mb-6 big-iframe" no-gutters>
+        <v-col sm="12" lg="6">
+          <h1>Dave Gould</h1>
+          <h3 class="text--secondary">Software Developer</h3>
+        </v-col>
+        <v-col sm="12" lg="6">
+          <v-img 
+            src="/nobg.png"
+
+            class="shadow"
+            width="90%">
+          </v-img>
+        </v-col>
+      </v-row>
+    </v-container>
 </template>
 
 <script lang="ts">
